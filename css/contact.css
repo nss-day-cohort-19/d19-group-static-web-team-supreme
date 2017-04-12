@@ -1,4 +1,5 @@
 /*contact page styles */
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600');
 
 .main-content-contact {
 	width: 80%;
@@ -17,7 +18,7 @@
 
 .form-container h3 {
   text-transform: uppercase;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald";
 }
 
 .form-container p {
