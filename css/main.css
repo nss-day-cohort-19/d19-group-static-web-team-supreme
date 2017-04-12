@@ -1,0 +1,32 @@
+/* Cross-Page Layout Styles */
+
+header,
+footer {
+	width: 100%;
+	height: 15px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+
+
+
+
+
+
+/* Cross-Page Color Styles */
+
+header,
+footer {
+	background-color: #616A6b;
+	color: white;
+}
+
+nav ul li {
+	list-style: none;
+	text-decoration: none;
+	background-color: #E5E8E8;
+	color: #B03A2E;
+}
