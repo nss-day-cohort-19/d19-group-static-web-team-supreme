@@ -1,4 +1,38 @@
-/* Cross-Page Layout Styles */
+/*contact page styles */
+
+.main-content-contact {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.form-container {
+	width: 70%;
+	float: left;
+}
+
+.contact-sidebar {
+	width: 30%;
+	float: right;
+}
+
+.form-container h3 {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+
+.form-container p {
+  font-family: "Helvetica", sans-serif;
+}
+.contact-sidebar h3 {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+
+.contact-sidebar p {
+  font-family: "Helvetica", sans-serif;
+}
+
+/*random styling */
 * {
 	box-sizing: border-box;
 }
@@ -31,9 +65,6 @@ nav ul li {
 	margin-left: 60%;
 
 }
-
-
-
 /* Cross-Page Color Styles */
 
 header,
@@ -54,37 +85,4 @@ nav ul li a {
 }
 nav ul li a:hover {
 	color: #B03A2E;
-}
-
-
-/* Index Styles */
-
-.top {
-	display: inline-block;
-	width: 40%;
-	border: 2px solid #B03A2E;
-	border-radius: 5px;
-	height: 300px;
-	margin: 10px 4.5%;
-	overflow: hidden;
-}
-
-.top img {
-	width: 200%;
-	height: auto;
-
-}
-
-.bottom {
-	width: 90%;
-	border: 2px solid #B03A2E;
-	border-radius: 5px;
-	height: 300px;
-	margin: 15px 5%;
-	overflow: hidden;
-}
-.bottom img {
-	width:200%;
-	height: auto;
-
 }
