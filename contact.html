@@ -24,28 +24,33 @@
 	</nav>
 <!-- /Nav Bar-->
 <!-- Main Section-->
-      <h3>Send us an email:</h3>
-      <p>Ask us anything!</p>
-    	<section class="email-form">
-        <form action="send-email.php" method="post" class="contact-form">
-          <label>Name* <br /><br />
-          <input type="text" name="first-name" size="30" maxlength="40"></label><br /><br />
-          <label> Email Address*<br /><br />
-          <input type="email" name="email" /></label><br /><br />
-          <label>What can we help you with?<br /><br />
-          <textarea name="comments" rows="10" cols="50"></textarea><br /><br />
-        </form>
-    	</section>
-      <section>
-        <aside class="contact-sidebar">
-          <h3>Give us a call:</h3>
-          <p>Call Toll-Free</p>
-          <p>+1(888)555-0000</p>
-          <p>M-T 8-2pm and F 9-1pm CST</p>
-          <p>Or you can reach us via email at support@supremewatches.com and expect a response within 48 hours.</p>
-        </aside>
-      </section>
-
+  <div class="main-content-contact">
+    <div class="form-container">
+      <div class="form-header">
+        <h3>Send us an email:</h3>
+        <p>Ask us anything!</p>
+      </div>
+      	<section class="email-form">
+          <form action="send-email.php" method="post" class="contact-form">
+            <label>Name* <br /><br />
+            <input type="text" name="first-name" size="30" maxlength="40" required></label><br /><br />
+            <label> Email Address*<br /><br />
+            <input type="email" name="email" required></label><br /><br />
+            <label>What can we help you with?<br /><br />
+            <textarea name="comments" rows="10" cols="50"></textarea><br /><br />
+          </form>
+      	</section>
+    </div>
+        <section>
+          <aside class="contact-sidebar">
+            <h3>Give us a call:</h3>
+            <p>Call Toll-Free</p>
+            <p>+1(888)555-0000</p>
+            <p>M-T 8-2pm and F 9-1pm CST</p>
+            <p>Or you can reach us via email at support@supremewatches.com and expect a response within 48 hours.</p>
+          </aside>
+        </section>
+  </div>
 <!-- /Main Section-->
 <!-- Footer-->
 	<footer>
