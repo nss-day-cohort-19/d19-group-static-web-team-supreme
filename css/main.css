@@ -59,8 +59,6 @@ nav ul li a:hover {
 	color: #B03A2E;
 }
 
-/* Mission Page */
-
 .mission {
 	height: 400px;
 	width: 95%;
@@ -143,36 +141,6 @@ p.whisper {
 .bottom img {
 	width:200%;
 	height: auto;
-}
-
-/* Team Styles */
-#teambody header {
-	background-color: #616A6B;
-	color: #E5E8E8;
-}
-#teambody div {
-	height: 200px;
-	background-color: #616A6B;
-	border: 1px solid #B03A2E;
-	border-radius: 5px;
-}
-#teambody img {
-	float: left;
-	width: 34%;
-	height: 200px;
-	border-right: 1px solid black;
-	/*border-radius: 5px;*/
-}
-#teambody aside {
-	float: right;
-	width: 65%;
-	height: 200px;
-	background-color: #E5E8E8
-	color: #616A6B;
-}
-#teambody h3, h4 {
-	font-style:;
-
 }
 #teambody p {
 	font-style:;
