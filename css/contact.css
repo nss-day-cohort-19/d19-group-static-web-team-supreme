@@ -1,8 +1,9 @@
 /*contact page styles */
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600');
 
 .main-content-contact {
 	width: 80%;
-	margin: 0 auto;
+	margin: 2% 5% 0 15%;
 }
 
 .form-container {
@@ -18,18 +19,50 @@
 .form-container h3 {
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
+	font-size: 1.85em;
+	margin: .2em 0 .2em 0;
 }
 
 .form-container p {
   font-family: "Helvetica", sans-serif;
+	color: #616A6b;
+	font-size: 1.1em;
+	font-weight: 500;
+	margin-top: 0;
 }
+
+.contact-sidebar {
+	border-left: 2px solid black;
+	padding: 5% 0 7% 2%;
+}
+
 .contact-sidebar h3 {
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
+	font-size: 1.85em;
 }
 
 .contact-sidebar p {
   font-family: "Helvetica", sans-serif;
+}
+
+.contact-form {
+	margin: 0 0 2% 0;
+}
+
+label {
+	font-family: "Helvetica", sans-serif;
+	font-size: .9em;
+}
+
+button {
+	background-color: #B03A2E;
+	font-family: "Oswald";
+	cursor: pointer;
+	color: white;
+	font-size: 1.2em;
+	border: none;
+
 }
 
 /*random styling */
@@ -39,42 +72,27 @@
 header,
 footer {
 	width: 100%;
-	padding: 5px;
 	text-align: center;
 	clear: both;
 }
+
+/*navbar styles*/
+
 nav {
 	width: 100%;
-	padding: 5px;
+	padding: 0;
+	background-color: #E5E8E8;
+	margin: 0;
 }
+
 nav ul {
-	margin-bottom: 2px;
+	text-align: right;
+	margin: 0;
+	padding: 3%;
 }
 
 nav ul li {
-	display: inline-block;
-	padding: 2px;
-	margin: 2px;
-}
-
-#logo {
-	margin-top: 0;
-}
-
-#firstNav {
-	margin-left: 60%;
-
-}
-/* Cross-Page Color Styles */
-
-header,
-footer {
-	background-color: #616A6b;
-	color: white;
-}
-nav {
-	background-color: #E5E8E8;
-
+	display: inline;
 }
 
 nav ul li a {
@@ -82,7 +100,24 @@ nav ul li a {
 	text-decoration: none;
 	font-size: 1.25em;
 	color: black;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
 }
 nav ul li a:hover {
 	color: #B03A2E;
+}
+
+nav img {
+	float: left;
+	width: 19%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+/* Cross-Page Color Styles */
+
+header,
+footer {
+	background-color: #616A6b;
+	color: white;
 }
