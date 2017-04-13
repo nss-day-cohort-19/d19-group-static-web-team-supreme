@@ -1,9 +1,31 @@
 /* Mission Page */
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600');
+
+h2 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: "Oswald", sans-serif;
+	font-size: 1.5em;
+}
+
+a {
+	color: #616A6b;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #B03A2E;
+}
+
+/*Mission Div*/
+
 .mission {
 	height: 400px;
-	width: 95%
-	margin: 0 auto;
+	width: 95%;
+	margin: 20px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 20px;
+	border-radius: 5px;
 }
 
 .mission-image {
@@ -23,16 +45,22 @@
 	padding: 20px;
 	width: 55%;
 	float: right;
+	text-align: center;
 }
 
 p.whisper {
 	font-size: .3em;
 }
 
+/*Promise Div*/
+
 .promise {
 	height: 400px;
-	width: 95%
-	margin: 0 auto;
+	width: 95%;
+	margin: 20px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 20px;
+	border-radius: 5px;
 }
 
 .promise-image {
@@ -48,7 +76,10 @@ p.whisper {
 }
 
 .promise-text {
+	margin-top: 20px;
 	height: 80%;
 	padding: 20px;
 	width: 55%;
 	float: left;
+	text-align: center;
+}
