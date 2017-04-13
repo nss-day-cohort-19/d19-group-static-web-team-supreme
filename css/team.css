@@ -1,32 +1,59 @@
 /* Team Styles */
-#teambody header {
-	background-color: #616A6B;
-	color: #E5E8E8;
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600');
+/*.teambody header {
+background-color: #616A6B;
+color: #E5E8E8;
 }
-#teambody div {
-	height: 200px;
-	background-color: #616A6B;
-	border: 1px solid #B03A2E;
-	border-radius: 5px;
+.teambody div {
+height: 200px;
+background-color: #616A6B;
+border: 1px solid #B03A2E;
+border-radius: 5px;
+}*/
+.teambody {
+	color: black;
 }
-#teambody img {
-	float: left;
-	width: 34%;
-	height: 200px;
-	border-right: 1px solid black;
-	/*border-radius: 5px;*/
+.teambody .img1, .img3 {
+float: left;
+width: 34%;
+height: 250px;
+border-radius: 5px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
 }
-#teambody aside {
-	float: right;
-	width: 65%;
-	height: 200px;
-	background-color: #E5E8E8
-	color: #616A6B;
+.teambody .img2, .img4 {
+float: right;
+width: 34%;
+height: 250px;
+border-radius: 5px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
 }
-#teambody h3, h4 {
-	font-style:;
+.img1 {
+	background-image: url("../images/germanpocketwatch.jpg");
+}
+.img2 {
+	background-image: url("../images/catwearingwatch.jpg");
+}
+.img3 {
+	background-image: url("../images/veganwatch.jpg");
+}
+.img4 {
+	background-image: url("../images/elfwatch.jpg");
+}
+.teambody aside {
+float: right;
+width: 65%;
+height: 250px;
+background-color:;
 
 }
-#teambody p {
-	font-style:;
+.teambody .title, .name {
+font-family:"Oswald", sans-serif;
+
+}
+.teambody p {
+
 }
