@@ -10,8 +10,10 @@ background-color: #616A6B;
 border: 1px solid #B03A2E;
 border-radius: 5px;
 }*/
+}
 .teambody {
 	color: black;
+	margin
 }
 .teambody .img1, .img3 {
 float: left;
@@ -30,6 +32,10 @@ border-radius: 5px;
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
+}
+.img1, .img2, .img3, .img4 {
+	border-radius: 5px;
+	margin: 3px;
 }
 .img1 {
 	background-image: url("../images/germanpocketwatch.jpg");
@@ -56,4 +62,11 @@ font-family:"Oswald", sans-serif;
 }
 .teambody p {
 
+}
+.bio {
+	float: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: .7%;
+	margin: 10px;
+	border-radius: 5px
 }
