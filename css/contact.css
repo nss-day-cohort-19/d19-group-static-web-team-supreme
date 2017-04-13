@@ -66,7 +66,7 @@ button {
 }
 
 /*random styling */
-* {
+/** {
 	box-sizing: border-box;
 }
 header,
@@ -74,11 +74,11 @@ footer {
 	width: 100%;
 	text-align: center;
 	clear: both;
-}
+}*/
 
 /*navbar styles*/
 
-nav {
+/*nav {
 	width: 100%;
 	padding: 0;
 	background-color: #E5E8E8;
@@ -113,11 +113,11 @@ nav img {
 	height: auto;
 	margin: 0;
 	padding: 0;
-}
+}*/
 /* Cross-Page Color Styles */
 
-header,
+/*header,
 footer {
 	background-color: #616A6b;
 	color: white;
-}
+}*/
