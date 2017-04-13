@@ -2,6 +2,9 @@
 * {
 	box-sizing: border-box;
 }
+/*Oswald Font-Family*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600');
+
 header,
 footer {
 	width: 100%;
@@ -56,7 +59,59 @@ nav ul li a:hover {
 	color: #B03A2E;
 }
 
+.mission {
+	height: 400px;
+	width: 95%;
+	margin: 0 auto;
+}
 
+.mission-image {
+	background-image: url("../images/our-mission.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	width: 40%;
+	margin: 0;
+	padding: 5px;
+	float: left;
+}
+
+.mission-text {
+	height: 80%;
+	padding: 20px;
+	width: 55%;
+	float: right;
+}
+
+p.whisper {
+	font-size: .3em;
+}
+
+.promise {
+	height: 400px;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.promise-image {
+	background-image: url("../images/our-promise.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	width: 40%;
+	margin: 0;
+	padding: 5px;
+	float: right;
+}
+
+.promise-text {
+	height: 80%;
+	padding: 20px;
+	width: 55%;
+	float: left;
+}
 /* Index Styles */
 
 .top {
@@ -86,5 +141,7 @@ nav ul li a:hover {
 .bottom img {
 	width:200%;
 	height: auto;
-
+}
+#teambody p {
+	font-style:;
 }
