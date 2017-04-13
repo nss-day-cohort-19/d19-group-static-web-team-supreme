@@ -1,31 +1,72 @@
 /* Index Styles */
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600');
 
-.top {
+.top1 {
 	display: inline-block;
 	width: 40%;
-	border: 2px solid #B03A2E;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-radius: 5px;
 	height: 300px;
-	margin: 10px 4.5%;
-	overflow: hidden;
+	color: white;
+	padding:5px;
+	margin: 15px 5% 15px 5%;
 }
 
-.top img {
-	width: 200%;
-	height: auto;
-
+.top2 {
+	display: inline-block;
+	width: 40%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+	height: 300px;
+	color: white;
+	padding:5px;
+	margin:15px 0 15px 5%;
 }
-
 .bottom {
 	width: 90%;
-	border: 2px solid #B03A2E;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-radius: 5px;
 	height: 300px;
-	margin: 15px 5%;
-	overflow: hidden;
+	margin: 20px 5%;
+	color: white;
+	padding: 5px;
 }
-.bottom img {
-	width:200%;
-	height: auto;
+
+
+#indexProduct {
+	background-image: url(../images/watch2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#indexMission {
+	background-image: url(../images/watch6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#indexTeam {
+	background-image: url(../images/watch1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#indexContact {
+	background-image: url(../images/watch4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cardTitle {
+	margin: 10px 0 5px 10px;
+}
+.top1 a,
+.top2 a,
+.bottom a {
+	width: 100%;
+	height: 100%;
+}
+#miniWrapper {
+	margin-top: 2%;
 }
