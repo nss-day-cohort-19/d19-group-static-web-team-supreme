@@ -5,12 +5,35 @@
 /*Oswald Font-Family*/
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600');
 
-header,
-footer {
+body {
+	margin: 0;
+}
+
+header {
 	width: 100%;
-	padding: 5px;
+	margin: 0;
+	padding: .5%;
+	background-color: #616A6b;
+	color: white;
 	text-align: center;
 	clear: both;
+}
+
+header h1 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: "Oswald", sans-serif;
+	font-size: 1em;
+}
+
+footer {
+	background-color: #616A6b;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-family: "Oswald", sans-serif;
 }
 /*NAVBAR STYLES BY MADELINE*/
 
